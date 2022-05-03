@@ -1,0 +1,101 @@
+*, ::after, ::before{
+    box-sizing:     border-box;
+    
+    margin:         0;
+    padding:        0;
+
+
+
+}
+:root{
+    color:         wheat;
+    font-size:      20px;
+    
+}
+
+body{
+    background-image:   url("./img/bg.jpg");
+    background-repeat:  no-repeat;
+    background-size:    vcover;
+
+    background-attachment:  fixed;
+    background-position-x:  center;
+    background-position-y:  center;
+
+
+
+}
+
+/* 
+header nav and logo 
+*/
+#header{
+    background:     linear-gradient(45deg ,rgb(29, 29, 29) ,black);
+ 
+    /* font-family: 'Love Ya Like A Sister', cursive, Arial, Helvetica, sans-serif; */
+    font-family:    'Architects Daughter', cursive, Arial, Helvetica, sans-serif;
+    padding:        .5rem;
+    text-align:     center;
+    
+}
+.menu-one{
+border: 1px solid red;
+
+    float:          left;
+    font-size:      3vmin;
+    width:          45%;
+    
+}
+
+.menu-two{
+    
+    border: 1px solid red;
+    float:          right;
+    font-size:      3vmin;
+    width:          40%;
+   
+}
+
+.menu ul li{
+    display:            inline-block;
+    text-decoration:    none;
+}
+
+.menu  a {
+color: wheat;
+text-decoration: none;
+}
+
+.logo{
+    border:     1px solid red;
+    float:      left;
+    width:      5%;
+}
+.logo img{
+    animation:  pizza-move 5s infinite;
+    width:      100%;
+    
+
+}
+/* Animation logo in nav */
+@keyframes pizza-move {
+    50% {transform: rotate(180deg);}
+  }
+/* END Animation */
+#phone-number{
+    border:         1px solid red;
+    float:          left;
+    font-size:      3vmin;
+    width:          10%;
+
+}
+
+.clear-fix::after{
+    content:         "";
+    clear:          both;
+    display:        block;
+    
+}
+
+
+/* end  header nav and logo  */
