@@ -1,8 +1,8 @@
 *, ::after, ::before{
     box-sizing:     border-box;
-    
     margin:         0;
     padding:        0;
+    
 
 
 
@@ -10,6 +10,7 @@
 :root{
     color:         wheat;
     font-size:      20px;
+   
     
 }
 
@@ -31,21 +32,23 @@ header nav and logo
 */
 #header{
     background:     linear-gradient(45deg ,rgb(29, 29, 29) ,black);
- 
+    
     /* font-family: 'Love Ya Like A Sister', cursive, Arial, Helvetica, sans-serif; */
-    font-family:    'Architects Daughter', cursive, Arial, Helvetica, sans-serif;
-    padding:        .5rem;
+    font-family:     'Cookie', cursive, Arial, Helvetica, sans-serif;
+ 
   
     
 }
 .menu{
+    
     text-align:     center;
+    padding: 1rem;
 }
 .menu-one{
 border: 1px solid red;
 
     float:          left;
-    width:          45%;
+    width:          40%;
     
 }
 
@@ -53,36 +56,39 @@ border: 1px solid red;
     
     border: 1px solid red;
     float:          right;
-    width:          40%;
+    width:          35%;
    
 }
 
 .menu ul li{
     display:            inline-block;
-    font-size:          4vmin;
+    font-size:          6vmin;
     text-decoration:    none;
     padding-right:      1rem;
 }
 
 .menu  a {
-color: rgb(255, 255, 255);
-text-decoration: none;
+color:            rgb(255, 255, 255);
+text-decoration:    none;
 }
 .menu ul li a:hover{
-    color: orangered;
-    font-weight: bold;
+    color:        orangered;
+    
 }
 .menu ul  ::first-letter{
-    color: orangered;
-    font-size: 5vmin;
+    color:      orangered;
+    font-weight:    bold;
+    font-size:    8vmin;
 }
 .logo{
     border:     1px solid red;
     float:      left;
+   margin:      1rem;
     width:      5%;
 }
 .logo img{
     animation:  pizza-move 5s infinite;
+   
     width:      100%;
     
 
@@ -95,9 +101,13 @@ text-decoration: none;
 #phone-number{
     border:         1px solid red;
     float:          left;
-    font-size:      3vmin;
+  
     width:          10%;
 
+}
+#phone-number .number{
+    font-size:      5vmin;
+    margin:         1.5rem auto 0rem;
 }
 
 .clear-fix::after{
@@ -109,3 +119,74 @@ text-decoration: none;
 
 
 /* end  header nav and logo  */
+/* 
+main slider- box , half
+*/
+.slider-box{
+    background-color:   black;
+    height:             15rem;
+}
+.slider-half article{
+    margin:             0 0 0 2rem;
+    
+}
+.slider-half {
+    
+    color:         white;
+    float:           left;
+    font-family:     'Poppins', Arial, Helvetica, sans-serif;
+    font-weight:     100;
+    font-size:       4vmin;
+    height:          100%;
+    letter-spacing:  .1rem;
+    padding: 1em;
+    word-spacing:    .4rem;
+    width:           50%;
+}
+.slider-half hr{
+    border:              0 none;
+    background-color: rgba(255, 255, 255, 0.24);
+    height:             1px;
+}
+/* end slide box */
+
+/* Btn section */
+.slider-half article .btn-section{
+    margin: 1rem 0 0 0 ;
+}
+.slider-half article .btn{
+    display:            block;
+    font-size:          3vmin;
+    font-style:         italic;
+    margin: 0 0 1rem 0;
+    max-width: 60%;
+    padding:             1rem;
+    text-transform:      uppercase;
+    text-decoration:     none;
+}
+.btn-order{
+    border: 1px solid orangered;
+    color: orangered;
+    
+}
+.btn-book{
+    border: 1px solid gold;
+    color: gold;
+}
+.btn-order:hover{
+    background-color: orangered;
+    color: blue;
+    font-weight: 200;
+    transition: all 1.5s ease;
+}
+.btn-book:hover{
+    background-color: gold;
+    color: blue;
+    font-weight: 200;
+    transition: all 1.5s ease;
+}
+/* End btn */
+
+/* 
+slider half pizza-img
+*/
