@@ -35,14 +35,16 @@ header nav and logo
     /* font-family: 'Love Ya Like A Sister', cursive, Arial, Helvetica, sans-serif; */
     font-family:    'Architects Daughter', cursive, Arial, Helvetica, sans-serif;
     padding:        .5rem;
-    text-align:     center;
+  
     
+}
+.menu{
+    text-align:     center;
 }
 .menu-one{
 border: 1px solid red;
 
     float:          left;
-    font-size:      3vmin;
     width:          45%;
     
 }
@@ -51,21 +53,29 @@ border: 1px solid red;
     
     border: 1px solid red;
     float:          right;
-    font-size:      3vmin;
     width:          40%;
    
 }
 
 .menu ul li{
     display:            inline-block;
+    font-size:          4vmin;
     text-decoration:    none;
+    padding-right:      1rem;
 }
 
 .menu  a {
-color: wheat;
+color: rgb(255, 255, 255);
 text-decoration: none;
 }
-
+.menu ul li a:hover{
+    color: orangered;
+    font-weight: bold;
+}
+.menu ul  ::first-letter{
+    color: orangered;
+    font-size: 5vmin;
+}
 .logo{
     border:     1px solid red;
     float:      left;
