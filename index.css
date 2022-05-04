@@ -45,7 +45,7 @@ header nav and logo
     padding: 1rem;
 }
 .menu-one{
-border: 1px solid red;
+
 
     float:          left;
     width:          40%;
@@ -54,7 +54,7 @@ border: 1px solid red;
 
 .menu-two{
     
-    border: 1px solid red;
+ 
     float:          right;
     width:          35%;
    
@@ -81,7 +81,7 @@ text-decoration:    none;
     font-size:    8vmin;
 }
 .logo{
-    border:     1px solid red;
+   
     float:      left;
    margin:      1rem;
     width:      5%;
@@ -99,7 +99,7 @@ text-decoration:    none;
   }
 /* END Animation */
 #phone-number{
-    border:         1px solid red;
+    
     float:          left;
   
     width:          10%;
@@ -125,7 +125,7 @@ main slider- box , half
 .slider-box{
     background-color:   black;
     height:             20rem;
-    margin-bottom:       4rem;
+  
 }
 .slider-half article{
     margin:             4rem 0 0 2rem;
@@ -209,7 +209,7 @@ section adv
 .adv-one-third{
     box-shadow: 2px 2px 22px 4px black;
     float: left;
-    margin: 1.5rem 0 1.5rem;
+    margin: 1.5rem 0 0;
     padding: 1rem;
     width: 33%;
     
@@ -262,3 +262,24 @@ section adv
 }
 
 /* end adv */
+/* 
+section kitchen menu
+*/
+.kitchen-menu{
+    background-color: black;
+
+}
+.menu-one-forth{
+    color: white;
+    font-family: 'Poppins',Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    float: left;
+    padding: 1.2rem;
+    text-align: center;
+    width: 25%;
+
+}
+.menu-one-forth img{
+    width: 50%;
+}
+/* end kitchen menu */
